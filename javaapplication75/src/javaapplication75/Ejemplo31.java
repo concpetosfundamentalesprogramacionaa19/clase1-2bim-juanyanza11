@@ -36,7 +36,7 @@ public class Ejemplo31 {
             if(nota >= 8.1 && nota <= 12){
                 datos[1] = datos[1] + 1;
             }else{
-                if (nota >= 12.1 || nota <= 16){
+                if (nota >= 12.1 && nota <= 16){
                 datos[2] = datos[2] + 1;
                 }else{
                     if (nota >= 16.1 && nota <= 19){
@@ -46,7 +46,7 @@ public class Ejemplo31 {
                             datos[4] = datos[4] + 1;
                         }else{
                             if (nota > 20){
-                            datos[5] = datos[5+1];
+                            datos[5] = datos[5] + 1;
                             }
                         }
                             
