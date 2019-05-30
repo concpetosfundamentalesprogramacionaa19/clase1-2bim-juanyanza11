@@ -20,8 +20,10 @@ public class Ejemplo3 {
         Random aleatorios = new Random();
         int[] datos = new int[3];
         String[] rangos = {"0-100", "101-199", "200-adelante"};
+        System.out.printf("Ingrese su nota");
+        int nota = entrada.nextInt();
         
-        int cantidad = 1000;
+        int cantidad = 199;
         if(cantidad <=100){
             datos[0] = datos[0] + 1;
         }else{
